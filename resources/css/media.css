@@ -1,11 +1,214 @@
-@media only screen and (max-width: 480px) {
+/* =============================================
+   RESPONSIVE STYLES
+   ============================================= */
 
-    .exp-duration {
-        font-size: 60%;
-        margin-top: 4px;
+/* --- Tablet: up to 768px --- */
+@media only screen and (max-width: 768px) {
+
+    html {
+        font-size: 17px;
+        margin: 16px 0;
     }
 
-	.skill-title {
-        margin-top: 10px;
+    .row {
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .professional {
+        padding: 28px 28px 32px;
+    }
+
+    .personal-details {
+        padding: 18px 18px 24px;
+    }
+
+    h1 {
+        font-size: 136%;
+    }
+
+    .project-card {
+        padding: 14px 15px;
+    }
+
+    .skills-group-label {
+        font-size: 70%;
+    }
+}
+
+/* --- Mobile: up to 480px --- */
+@media only screen and (max-width: 480px) {
+
+    html {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .row {
+        border-radius: 0;
+        box-shadow: none;
+        flex-direction: column;
+    }
+
+    /* Stack columns vertically on mobile */
+    .col {
+        margin: 0;
+        float: none;
+        width: 100% !important;
+    }
+
+    .personal {
+        width: 100%;
+    }
+
+    .personal-header {
+        padding: 28px 16px 22px;
+    }
+
+    .personal-header img {
+        width: 78px;
+        height: 78px;
+    }
+
+    h1 {
+        font-size: 130%;
+    }
+
+    .personal-title {
+        font-size: 68%;
+    }
+
+    .personal-subtitle {
+        font-size: 62%;
+    }
+
+    .personal-details {
+        padding: 16px 16px 22px;
+    }
+
+    .personal-info {
+        margin-top: 9px;
+    }
+
+    .personal-info a {
+        font-size: 70%;
+    }
+
+    h3 {
+        margin-top: 22px;
+        font-size: 66%;
+    }
+
+    .personal-ed-bold,
+    .personal-ed-sub,
+    .personal-ed-light,
+    .personal-ed-gpa {
+        font-size: 70%;
+    }
+
+    .soft-skills-list li {
+        font-size: 70%;
+    }
+
+    .professional {
+        padding: 22px 18px 28px;
+    }
+
+    .main-heading {
+        margin-top: 28px;
+    }
+
+    h2 {
+        font-size: 82%;
+        letter-spacing: 1px;
+    }
+
+    .main-desc {
+        font-size: 76%;
+        line-height: 1.65;
+        margin-top: 12px;
+    }
+
+    /* Project cards */
+    .project-card {
+        padding: 13px 14px;
+        margin-top: 13px;
+    }
+
+    .project-title {
+        font-size: 78%;
+    }
+
+    .project-desc {
+        font-size: 73%;
+    }
+
+    .project-badge {
+        font-size: 58%;
+    }
+
+    .tech-tag {
+        font-size: 60%;
+        padding: 2px 7px;
+    }
+
+    .project-link,
+    .project-link-private,
+    .project-proposed-note {
+        font-size: 68%;
+    }
+
+    /* Other projects */
+    .exp-project a {
+        font-size: 74%;
+    }
+
+    .exp-project p {
+        font-size: 70%;
+    }
+
+    /* Skills */
+    .skills-group {
+        margin-top: 12px;
+    }
+
+    .skills-group-label {
+        font-size: 70%;
+    }
+
+    .skill-tag {
+        font-size: 66%;
+        padding: 3px 10px;
+    }
+
+    /* Footer */
+    .portfolio-footer {
+        margin-top: 28px;
+    }
+
+    .portfolio-footer p {
+        font-size: 65%;
+        flex-direction: column;
+        gap: 3px;
+    }
+}
+
+/* --- Very small screens: up to 360px --- */
+@media only screen and (max-width: 360px) {
+
+    html {
+        font-size: 15px;
+    }
+
+    .professional {
+        padding: 18px 14px 24px;
+    }
+
+    .personal-details {
+        padding: 14px 14px 20px;
+    }
+
+    .project-card {
+        padding: 11px 12px;
     }
 }
