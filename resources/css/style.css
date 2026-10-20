@@ -12,7 +12,7 @@ html {
     color: #3a3a3a;
     font-family: 'Inter', 'Lato', 'Arial', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     margin: 30px 0;
@@ -248,9 +248,9 @@ h2 {
 
 /* Career description */
 .main-desc {
-    font-size: 78%;
-    line-height: 1.7;
-    margin-top: 16px;
+    font-size: 74%;
+    line-height: 1.68;
+    margin-top: 14px;
     color: #444;
 }
 
@@ -287,7 +287,7 @@ h2 {
 
 .project-title {
     font-weight: 700;
-    font-size: 80%;
+    font-size: 75%;
     color: #1a3a5c;
     margin: 0 0 6px 0;
     line-height: 1.3;
@@ -302,9 +302,9 @@ h2 {
 
 .project-badge {
     display: inline-block;
-    font-size: 60%;
+    font-size: 57%;
     font-weight: 600;
-    padding: 2px 8px;
+    padding: 2px 7px;
     border-radius: 20px;
     letter-spacing: 0.3px;
     text-transform: uppercase;
@@ -336,10 +336,10 @@ h2 {
 }
 
 .project-desc {
-    font-size: 74%;
-    line-height: 1.65;
+    font-size: 70%;
+    line-height: 1.62;
     color: #555;
-    margin-top: 8px;
+    margin-top: 7px;
 }
 
 .project-tech {
@@ -350,7 +350,7 @@ h2 {
 }
 
 .tech-tag {
-    font-size: 62%;
+    font-size: 59%;
     font-weight: 500;
     background-color: #e8edf5;
     color: #2563a8;
@@ -372,7 +372,7 @@ h2 {
     gap: 4px;
     text-decoration: none;
     color: #2563a8;
-    font-size: 70%;
+    font-size: 66%;
     font-weight: 600;
     transition: color 0.2s ease;
 }
@@ -392,7 +392,7 @@ h2 {
     align-items: center;
     gap: 4px;
     color: #9ca3af;
-    font-size: 70%;
+    font-size: 66%;
     font-style: italic;
 }
 
@@ -404,9 +404,9 @@ h2 {
     display: flex;
     align-items: center;
     gap: 5px;
-    font-size: 68%;
+    font-size: 64%;
     color: #d97706;
-    margin-top: 10px;
+    margin-top: 8px;
     font-style: italic;
 }
 
@@ -437,7 +437,7 @@ h2 {
     display: block;
     text-decoration: none;
     color: #2563a8;
-    font-size: 76%;
+    font-size: 72%;
     font-weight: 600;
     transition: color 0.2s ease;
 }
@@ -449,8 +449,8 @@ h2 {
 }
 
 .exp-project p {
-    font-size: 72%;
-    line-height: 1.55;
+    font-size: 68%;
+    line-height: 1.52;
     color: #666;
     margin-top: 3px;
 }
@@ -467,10 +467,10 @@ h2 {
 }
 
 .skills-group-label {
-    font-size: 72%;
+    font-size: 68%;
     font-weight: 700;
     color: #3a3a3a;
-    margin-bottom: 7px;
+    margin-bottom: 6px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
@@ -483,11 +483,11 @@ h2 {
 
 .skill-tag {
     display: inline-block;
-    font-size: 68%;
+    font-size: 64%;
     font-weight: 500;
     background-color: #eff4fb;
     color: #1e3a5f;
-    padding: 4px 12px;
+    padding: 3px 10px;
     border-radius: 4px;
     border: 1px solid #ccd8ec;
     transition: background-color 0.15s ease, color 0.15s ease;
